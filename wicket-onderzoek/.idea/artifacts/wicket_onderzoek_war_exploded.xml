@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wicket-onderzoek:war exploded">
+    <output-path>$PROJECT_DIR$/target/wicket-onderzoek</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>wicket-onderzoek</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wicket-onderzoek" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.4.0" />
+          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.0.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.4.0" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.1.1" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.4.0" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.4.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.19" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: com.airhacks:jaxrs-cors:0.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-core:9.0.0-M4" />
+          <element id="library" level="project" name="Maven: com.github.openjson:openjson:1.0.11" />
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-request:9.0.0-M4" />
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-util:9.0.0-M4" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.4" />
+          <element id="library" level="project" name="Maven: org.danekja:jdk-serializable-functional:1.9.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/wicket-onderzoek/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wicket-onderzoek/web/Web" />
+    </root>
+  </artifact>
+</component>
