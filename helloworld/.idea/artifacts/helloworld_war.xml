@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="helloworld-1.0-SNAPSHOT.war">
+    <root id="archive" name="wicket-onderzoek.war">
       <element id="artifact" artifact-name="helloworld:war exploded" />
     </root>
   </artifact>
