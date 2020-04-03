@@ -28,7 +28,11 @@ public class HomePage extends WebPage {
 
         TextField<String> username = new TextField<String>("username", new PropertyModel<String>(userModel, "username"));
 <<<<<<< HEAD
+<<<<<<< HEAD
         PasswordTextField password = new PasswordTextField("password", new PropertyModel<String>(userModel, "password"));
+=======
+        TextField<String> password = new TextField<String>("password", new PropertyModel<String>(userModel, "password"));
+>>>>>>> parent of 7ac18fb... gefixed
 =======
         TextField<String> password = new TextField<String>("password", new PropertyModel<String>(userModel, "password"));
 >>>>>>> parent of 7ac18fb... gefixed
