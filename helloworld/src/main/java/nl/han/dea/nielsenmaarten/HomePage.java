@@ -4,7 +4,10 @@ package nl.han.dea.nielsenmaarten;
 import nl.han.dea.nielsenmaarten.services.datasourceBasedLoginService;
 import nl.han.dea.nielsenmaarten.services.dto.UserDTO;
 import org.apache.wicket.markup.html.WebMarkupContainer;
-import org.apache.wicket.markup.html.form.*;
+import org.apache.wicket.markup.html.form.Button;
+import org.apache.wicket.markup.html.form.DropDownChoice;
+import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.TextField;
 import org.apache.wicket.model.PropertyModel;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 
@@ -24,7 +27,11 @@ public class HomePage extends WebPage {
         Form<?> form = new Form("form");
 
         TextField<String> username = new TextField<String>("username", new PropertyModel<String>(userModel, "username"));
+<<<<<<< HEAD
         PasswordTextField password = new PasswordTextField("password", new PropertyModel<String>(userModel, "password"));
+=======
+        TextField<String> password = new TextField<String>("password", new PropertyModel<String>(userModel, "password"));
+>>>>>>> parent of 7ac18fb... gefixed
 
         Button button = new Button("submit") {
             @Override
