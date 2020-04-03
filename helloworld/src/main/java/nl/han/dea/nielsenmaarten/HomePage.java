@@ -25,6 +25,7 @@ public class HomePage extends WebPage {
         Label loggedin = new Label("loggedin", "u bent ingelogd.");
         loggedin.setVisible(false);
 
+
         Button button = new Button("submit") {
             @Override
             public void onSubmit() {
