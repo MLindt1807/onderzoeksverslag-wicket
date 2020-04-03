@@ -5,8 +5,9 @@ import nl.han.dea.nielsenmaarten.services.dto.UserDTO;
 import nl.han.dea.nielsenmaarten.services.dto.UserVerbindingDTO;
 
 import javax.inject.Inject;
+import java.io.Serializable;
 
-public class LoginMapper {
+public class LoginMapper implements Serializable {
     LoginDAO loginDAO;
 
     public LoginMapper() {

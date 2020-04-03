@@ -1,6 +1,8 @@
 package nl.han.dea.nielsenmaarten.services.dto;
 
-public class UserDTO {
+import java.io.Serializable;
+
+public class UserDTO implements Serializable {
 
 
 

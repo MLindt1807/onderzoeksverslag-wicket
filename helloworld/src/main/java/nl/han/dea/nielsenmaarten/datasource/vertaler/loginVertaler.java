@@ -2,7 +2,9 @@ package nl.han.dea.nielsenmaarten.datasource.vertaler;
 
 import nl.han.dea.nielsenmaarten.services.dto.UserVerbindingDTO;
 
-public class loginVertaler {
+import java.io.Serializable;
+
+public class loginVertaler implements Serializable {
     public loginVertaler(){
 
     }

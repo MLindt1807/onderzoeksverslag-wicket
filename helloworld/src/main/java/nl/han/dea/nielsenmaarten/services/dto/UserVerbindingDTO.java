@@ -1,8 +1,9 @@
 package nl.han.dea.nielsenmaarten.services.dto;
 
 import javax.xml.registry.infomodel.User;
+import java.io.Serializable;
 
-public class UserVerbindingDTO {
+public class UserVerbindingDTO implements Serializable {
 
     public String token;
     public String user;

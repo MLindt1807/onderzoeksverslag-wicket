@@ -1,6 +1,8 @@
 package nl.han.dea.nielsenmaarten;
 
 
+import nl.han.dea.nielsenmaarten.services.datasourceBasedLoginService;
+import nl.han.dea.nielsenmaarten.services.dto.UserDTO;
 import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.*;
 import org.apache.wicket.model.PropertyModel;
@@ -16,13 +18,12 @@ import java.util.List;
 
 public class HomePage extends WebPage {
     public HomePage() {
-        // TODO Add your page's components here
+
         UserModel userModel = new UserModel();
 
         Form<?> form = new Form("form");
 
         TextField<String> username = new TextField<String>("username", new PropertyModel<String>(userModel, "username"));
-//        TextField<String> password = new TextField<String>("password", new PropertyModel<String>(userModel, "password"));
         PasswordTextField password = new PasswordTextField("password", new PropertyModel<String>(userModel, "password"));
 
         Button button = new Button("submit") {

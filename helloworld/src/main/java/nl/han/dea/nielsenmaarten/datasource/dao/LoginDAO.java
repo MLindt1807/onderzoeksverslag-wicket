@@ -6,12 +6,13 @@ import nl.han.dea.nielsenmaarten.datasource.vertaler.loginVertaler;
 import nl.han.dea.nielsenmaarten.services.dto.UserVerbindingDTO;
 
 import javax.inject.Inject;
+import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.UUID;
 
-public class LoginDAO {
+public class LoginDAO implements Serializable {
     private loginVertaler loginVertaler;
     private DatabaseConnection databaseConnection;
     private Connection connection;
